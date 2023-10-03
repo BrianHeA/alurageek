@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+        <!-- Fonte del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title> GEEK-ON</title>
+</head>
+<body>
+    <header>
+      <div class="contenedor-menu">
+          <div class="contenedor__logo-titulo">
+            <div class="logo">
+              <a href="/index.html"><img src="/assets/logo.png" alt="Logo" class="logo__img"></a>
+              </div>
+              <div class="titulo">
+                <h1>Tienda Geek_On</h1>
+            </div>
+          </div>
+          <div class="contenedor__buscar-login">
+            <div class="busqueda">
+              <input type="text" placeholder="Buscar" class="busqueda__barra">
+              <button type="submit" class="busqueda__boton">Buscar</button>
+            </div>
+            <div class="login">
+              <a href="/login.html" class="login__link">Iniciar sesión</a>
+            </div>
+          </div>
+      </div>
+    </header>
+
+    <div class="banner">
+      <img src="/assets/banner.png" alt="Imagen del banner" class="banner__img">
+    </div>
+
+    <!--Productos-->
+    <section id="productos" class="productos">
+      <h2 class="productos__titulo">Productos</h2>
+      <div class="grid" data-table>
+
+      </div>
+    </section>
+
+    <!--Formulario-->
+
+    <section id="contacto" class="contacto">
+      <h2 class="contacto__titulo">Formulario de contacto</h2>
+      <div class="contenedor__contacto">
+        <img src="/assets/Contacto.png" alt="imagen-contacto" class="contacto__img">
+        <form action="enviar.php" method="post" class="formulario">
+          <div class="campo">
+            <label for="nombre" class="campo_titulo">Nombre</label>
+            <input type="text" name="nombre" id="nombre" required>
+          </div>
+          <div class="campo">
+            <label for="correo" class="campo_titulo" >Correo electrónico</label>
+            <input type="email" name="correo" id="correo" required>
+          </div>
+          <div class="campo">
+            <label for="asunto" class="campo_titulo" >Asunto</label>
+            <input type="text" name="asunto" id="asunto" required>
+          </div>
+          <div class="campo">
+            <label for="mensaje" class="campo_titulo" >Mensaje</label>
+            <textarea name="mensaje" id="mensaje" required class="textarea"></textarea>
+          </div>
+          <button type="submit" class="boton__enviar">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <!--Footer-->
+    <section class="footer">
+        <div class="footer__rodape">
+            <p>Desarrollado por Brayan Arciniegas</p>
+            <p>2023</p>
+        </div>
+    </section>
+    
+    <!-- Script del documento JavaScript -->
+    <script src="/controller/productos-controller.js"></script>
+</body>
+</html>

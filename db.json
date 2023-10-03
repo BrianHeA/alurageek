@@ -1,0 +1,82 @@
+{
+  "producto": [
+    {
+      "img_url": "/assets/p1.jpg",
+      "name": "Croc Top Basico gato M Negra",
+      "descripcion": "Descripción del producto 1",
+      "precio": "$40.000",
+      "id": "1"
+    },
+    {
+      "name": "Lampara de escritorio Pac-Man",
+      "img_url": "/assets/p2.jpg",
+      "descripcion": "Descripción del producto 2",
+      "precio": "$70.000",
+      "id": "2"
+    },
+    {
+      "name": "Mug Tony Stark",
+      "img_url": "/assets/p3.jpg",
+      "descripcion": "Descripción del producto 3",
+      "precio": "$26.000",
+      "id": "3"
+    },
+    {
+      "name": "Mug Loki",
+      "img_url": "/assets/p4.jpg",
+      "descripcion": "Descripción del producto 4",
+      "precio": "$26.000",
+      "id": "4"
+    },
+    {
+      "name": "Funko Pop Marvel Collection - Spider Man No way home",
+      "img_url": "/assets/p5.jpg",
+      "descripcion": "Descripción del producto 5",
+      "precio": "$249.000",
+      "id": "5"
+    },
+    {
+      "name": "Combo gamer 4 en 1",
+      "img_url": "/assets/p6.jpg",
+      "descripcion": "Descripción del producto 6",
+      "precio": "$110.000",
+      "id": "6"
+    },
+    {
+      "name": "Figura de accion Genshin Impact",
+      "img_url": "/assets/p7.jpg",
+      "descripcion": "Descripción del producto 7",
+      "precio": "$30.000",
+      "id": "7"
+    },
+    {
+      "name": "Combo Gamer para celular 6 en 1",
+      "img_url": "/assets/p8.jpg",
+      "descripcion": "Descripción del producto 8",
+      "precio": "$170.000",
+      "id": "8"
+    },
+    {
+      "name": "Super Smash Bros Ultimate - Nintendo Switch",
+      "img_url": "/assets/p9.jpg",
+      "descripcion": "Descripción del producto 9",
+      "precio": "$214.000",
+      "id": "9"
+    },
+    {
+      "name": "Red Dead Redemption 2 PS4",
+      "img_url": "/assets/p10.jpg",
+      "descripcion": "Descripción del producto 10",
+      "precio": "$235.000",
+      "id": "10"
+    },
+    {
+      "name": "Hogwarts legacy PS4",
+      "img_url": "/assets/p11.jpg",
+      "descripcion": "Descripción del producto 11",
+      "precio": "$299.000",
+      "id": "11"
+    }
+    
+  ]
+}

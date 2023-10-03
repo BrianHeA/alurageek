@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="producto-style.css">
+        <!-- Fonte del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title> GEEK-ON</title>
+</head>
+<body>
+    <header>
+      <div class="contenedor-menu">
+          <div class="contenedor__logo-titulo">
+            <div class="logo">
+              <a href="/index.html"><img src="/assets/logo.png" alt="Logo" class="logo__img"></a>
+              </div>
+              <div class="titulo">
+                <h1>Tienda Geek_On</h1>
+            </div>
+          </div>
+          <div class="contenedor__buscar-login">
+              <div class="login">
+              <a href="/index.html" class="login__link">Cerrar sesión</a>
+            </div>
+          </div>
+      </div>
+    </header>
+
+    <section class="registro__producto">
+      <div class="contenedor__registro">
+        <h2 class="inicio__sesion__titulo">Registro de producto</h2>
+        <form  Data-Form id="add-producto" name="add-producto" method="post">
+          <div class="campo">
+            <label for="nombre_producto" class="campo__nombre">Nombre del producto</label>
+            <input type="text" name="nombre_producto" id="nombre_producto" required class="campo__nombre__barra">
+          </div>
+          <div class="campo">
+            <label for="descripcion_producto" class="campo__descripcion">Descripcion del producto</label>
+            <input type="text" name="descripcion_producto" id="descripcion_producto" required class="campo__descripcion__barra">
+          </div>
+          <div class="campo">
+            <label for="imagen_producto" class="campo__img">Imagen del producto</label>
+            <input type="text" name="imagen_producto" id="imagen_producto" required  class="campo__imagen__barra" >
+          </div>
+          <div class="campo">
+            <label for="precio_producto" class="campo__precio"> Precio del producto</label>
+            <input type="text" name="precio_producto" id="precio_producto" required class="campo__precio__barra">
+          </div>
+          <button type="submit" class="boton__guardar" name="boton_guardar">Guardar y publicar</button>
+        </form>
+      </div>      
+    </section>
+
+    <section class="lista__productos">
+      <div class="contenedor__lista" data-table>
+        <h2 class="lista__titulo">Lista de productos</h2>
+        <input type="text" placeholder="Buscar" class="busqueda__barra">
+        
+
+      </div>
+    </section>
+    
+    <section class="footer">
+        <div class="footer__rodape">
+            <p>Desarrollado por Brayan Arciniegas</p>
+            <p>2023</p>
+        </div>
+    </section>
+    
+    <!-- Script del documento JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="/client/client-service.js"></script>
+    <script type="module" src="/controller/registro-controller.js"></script>
+    <!-- <script src="/client/service.js" ></script> -->
+</body>
+</html>
